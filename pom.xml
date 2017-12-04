@@ -250,6 +250,7 @@
 				</executions>
 			</plugin>
 			<plugin>
+
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>aspectj-maven-plugin</artifactId>
 				<!-- Have to use version 1.2 since version 1.3 does not appear to work with ITDs -->
@@ -298,4 +299,13 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement> 
+112   <repository> 
+113     <id>Hariprasad</id> 
+114     <url>http://13.228.29.156:8081/nexus/content/repositories/Hariprasad</url> 
+115   </repository> 
+116 </distributionManagement> 
+117      
+118 </project> 
+
 </project>
